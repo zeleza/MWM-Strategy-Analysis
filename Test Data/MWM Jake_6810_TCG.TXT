@@ -1,0 +1,73 @@
+Arena 1:
+
+
+Calibration Martrix:
+
+2.829056    -0.000000    -0.000000
+-0.000000    2.829056    0.000000
+
+ZoneNum = 5
+
+
+Zone 1:
+Type 
+Polygon:
+Number of Vertex: 13
+V1(376, 54) V2(377, 282) V3(592, 284) V4(587, 246) V5(581, 224) V6(575, 203) V7(568, 178) V8(552, 154) V9(530, 126) V10(511, 104) V11(485, 85) V12(449, 69) V13(415, 60) 
+
+
+Zone 2:
+Type Polygon:
+Number of Vertex: 11
+V1(377, 284) V2(592, 284) V3(587, 316) V4(583, 333) V5(579, 361) V6(570, 387) V7(552, 427) V8(520, 467) V9(486, 489) V10(438, 511) V11(380, 518) 
+
+
+Zone 3:
+Type Polygon:
+Number of Vertex: 10
+V1(376, 283) V2(379, 521) V3(342, 518) V4(303, 510) V5(252, 481) V6(228, 453) V7(196, 420) V8(170, 357) V9(160, 300) V10(161, 282) 
+
+
+Zone 4:
+Type Polygon:
+Number of Vertex: 11
+V1(378, 284) V2(375, 53) V3(343, 57) V4(310, 66) V5(285, 80) V6(254, 98) V7(232, 121) V8(207, 150) V9(181, 195) V10(169, 233) V11(163, 280) 
+
+
+Zone 5:
+Type Circle(Three Arc Points):
+Arc Points(277, 331) (301, 355) (252, 370)
+Center(274, 357) Radius(26.172505)
+
+AreaNum = 9
+
+
+Area 
+1:
+Background: Zones()
+
+Area 2:
+NE Quad: Zones(1)
+
+Area 3:
+SE Quad: Zones(2)
+
+Area 4:
+SW Quad: Zones(3)
+
+Area 5:
+NW 
+Quad: Zones(4)
+
+Area 6:
+SW Plat: Zones(5)
+
+Area 7:
+NW Plat: Zones()
+
+Area 8:
+NE Plat: Zones()
+
+Area 9:
+SE Plat: Zones()
+
